@@ -25,7 +25,7 @@ To install Node.js, just go [here](https://nodejs.org/en/download/).
 
 Then, to install NPM run the following command in your terminal.
 ```
-nvm install node
+    nvm install node
 ```
 If you're having issues getting the command to work, I personally like using [VS Code](https://code.visualstudio.com/Download), opening the project in there, going to Terminal > New Terminal, and right-clicking to paste the command in (terminals are weird, you can't use Ctrl-C and Ctrl-V).
 
@@ -33,7 +33,7 @@ You can find the installer for obs-websocket version 4.9.1 [here](https://github
 
 You can install the correct version of [OBS-Websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js) by running this command in your terminal:
 ```
-npm install obs-websocket-js@4.0.3
+    npm install obs-websocket-js@4.0.3
 ```
 
 ### Additional Setup
@@ -50,6 +50,13 @@ This will allow you to hook up the OBS WebSockets server (in OBS, Tools > WebSoc
 
 ### Setting Up the Emotes
 In BrowserChanger.js, there's a list of information about each person you want to make a talking avatar for. Simply follow the instructions and paste the right information in the right place (you will need to have Advaced > Developer Mode turned on in Discord to get a person's Discord ID).
+
+### Running the Bot
+In your terminal, just run:
+```
+    node bot.js
+```
+to get it started!
 
 ---
 ## Things to Note
