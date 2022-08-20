@@ -48,7 +48,7 @@ In .env file, add the lines:
 ```
 This will allow you to hook up the OBS WebSockets server (in OBS, Tools > WebSockets Server Settings). 
 
-## Setting Up the Emotes
+### Setting Up the Emotes
 In BrowserChanger.js, there's a list of information about each person you want to make a talking avatar for. Simply follow the instructions and paste the right information in the right place (you will need to have Advaced > Developer Mode turned on in Discord to get a person's Discord ID).
 
 ---
@@ -56,3 +56,9 @@ In BrowserChanger.js, there's a list of information about each person you want t
 
 When someone changes their emote, they will have their portrait disappear for a small bit before reappearing. This is because changing you emote causes the browser source to refresh, making it relaod the image set being displayed. 
 Currently, there is no workaround for this and there are no plans to fix this is the future. This is because this issue is ingrained into how the bot changes emotes and how the issue is relatively minor. Fixing this issue would require changing how the talking portraits are displayed and possibly how discord communicates with OBS.
+
+---
+## Plans for the Future
+
+- Move IdEmoteList out of BrowserChanger.js and into a json file to allow for more organization.
+- Allow Discord user to assign their emotes (name, url, etc.) through bot commands
