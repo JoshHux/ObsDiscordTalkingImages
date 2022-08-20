@@ -56,7 +56,7 @@ In your terminal, just run:
 ```
     node bot.js
 ```
-to get it started!
+To get it started!
 
 ---
 ## Things to Note
