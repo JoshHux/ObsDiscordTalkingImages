@@ -50,7 +50,7 @@ export function ChangeEmote(discordName, ind) {
 
 
             const id = hold[0];
-            const browserName = hold[1];
+            const browserName = hold[2];
             const closed = expression[1];
             const open = expression[2];
 

@@ -25,7 +25,7 @@ To install Node.js, just go [here](https://nodejs.org/en/download/).
 
 Then, to install NPM run the following command in your terminal.
 ```
-    nvm install node
+    npm install node
 ```
 If you're having issues getting the command to work, I personally like using [VS Code](https://code.visualstudio.com/Download), opening the project in there, going to Terminal > New Terminal, and right-clicking to paste the command in (terminals are weird, you can't use Ctrl-C and Ctrl-V).
 
